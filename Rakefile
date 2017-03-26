@@ -4,6 +4,6 @@ namespace :db do
   end
 end
 
-require 'knapsack'
+require 'knapsack_pro'
 
-Knapsack.load_tasks
+KnapsackPro.load_tasks

@@ -2,4 +2,4 @@
 
 set -eu
 
-bundle exec rake knapsack:rspec
+bundle exec rake knapsack_pro:queue:rspec
