@@ -4,7 +4,7 @@
 
 This repository is an example on how to easily run 20 parallel testing agents for a [Rails](https://rubyonrails.org/) application using [Buildkite](https://buildkite.com/), [rbenv](https://github.com/rbenv/rbenv) and [Knapsack Pro](https://knapsackpro.com?utm_source=github&utm_medium=readme&utm_campaign=buildkite-rails-parallel-example-with-knapsack_pro).
 
-This repository doesn't actually include a Rails sample application, but has the same CI scripts you would use for a production application.
+This repository doesn't actually include a Rails sample application, but has the same CI scripts you would use for a production application. For a Docker based setup, see the [Rails Docker Parallel Example with Knapsack Pro](https://github.com/KnapsackPro/buildkite-rails-docker-parallel-example-with-knapsack_pro).
 
 Files to note:
 
