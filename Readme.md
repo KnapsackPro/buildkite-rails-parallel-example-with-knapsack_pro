@@ -1,4 +1,4 @@
-# Buildkite Rails Parallel Example
+# Buildkite Rails Parallel Example with Knapsack Pro
 
 [![Add to Buildkite](https://buildkite.com/button.svg)](https://buildkite.com/new)
 
