@@ -17,4 +17,12 @@ require 'knapsack_pro'
 #require 'fakeweb'
 #FakeWeb.allow_net_connect = %r[^https?://api\.knapsackpro\.com]
 
+# uncomment if you use capybara-screenshot gem
+# this is proper way of loading it
+# See https://github.com/KnapsackPro/knapsack_pro-ruby#how-to-use-queue-mode
+#unless ENV['KNAPSACK_PRO_RSPEC_DEPENDENCIES_LOADED']
+  #ENV['KNAPSACK_PRO_RSPEC_DEPENDENCIES_LOADED'] = 'true'
+  #require 'capybara-screenshot/rspec'
+#end
+
 KnapsackPro::Adapters::RSpecAdapter.bind
